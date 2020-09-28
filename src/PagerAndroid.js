@@ -4,7 +4,7 @@ import * as React from 'react';
 import { View, StyleSheet, I18nManager } from 'react-native';
 import { PagerRendererPropType } from './PropTypes';
 import type { PagerRendererProps } from './TypeDefinitions';
-import * as ViewPagerAndroid from '@react-native-community/viewpager';
+import ViewPagerAndroid from '@react-native-community/viewpager';
 
 type PageScrollEvent = {
   nativeEvent: {
